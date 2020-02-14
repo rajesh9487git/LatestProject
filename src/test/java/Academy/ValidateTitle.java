@@ -24,7 +24,7 @@ public class ValidateTitle extends base {
 	}
 	
 	
-	String evalue= "FEATURED COURSES123";
+	String evalue= "FEATURED COURSES";
 	
 	
 	@Test

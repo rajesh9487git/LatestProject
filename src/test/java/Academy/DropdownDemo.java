@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class DropdownDemo {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
 		System.setProperty("webdriver.chrome.driver","C:/seleniumRelatedSoftwares/chromedriver.exe");
 		 WebDriver driver= new ChromeDriver();
@@ -16,6 +16,7 @@ public class DropdownDemo {
 		 
 		 Select s= new Select(driver.findElement(By.xpath("//select[@id='ctl00_mainContent_DropDownListCurrency']")));
 		 s.selectByValue("AED");
+		 Thread.sleep(1000);
 		 s.selectByVisibleText("USD");
 		 
 		 

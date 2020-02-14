@@ -1,1 +1,6 @@
 [0408/153026.302:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[1203/182006.169:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\inrrao\AppData\Local\Temp\scoped_dir44300_24798\Crashpad: The system cannot find the file specified. (0x2)
+[1203/183346.769:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\inrrao\AppData\Local\Temp\scoped_dir66160_6258\Crashpad: The system cannot find the file specified. (0x2)
+[1203/192713.112:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\inrrao\AppData\Local\Temp\scoped_dir69888_16922\Crashpad: The system cannot find the file specified. (0x2)
+[1203/200529.814:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\inrrao\AppData\Local\Temp\scoped_dir93072_11452\Crashpad: The system cannot find the file specified. (0x2)
+[1210/200210.371:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\inrrao\AppData\Local\Temp\scoped_dir52584_10491\Crashpad: The system cannot find the file specified. (0x2)

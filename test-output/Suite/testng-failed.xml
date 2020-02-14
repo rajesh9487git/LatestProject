@@ -2,30 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
   <listeners>
-    <listener class-name="resources.listeners"/>
-    <listener class-name="resources.ExtentReporterNG"/>
+    <listener class-name="SeleniumCodingPractice.Listeners"/>
   </listeners>
-  <test name="ValidateTitleTest(failed)">
+  <test name="Test(failed)">
     <classes>
-      <class name="Academy.ValidateNavigationBar">
+      <class name="SeleniumCodingPractice.JavaScriptExecutor">
         <methods>
-          <include name="launchBrowser"/>
-          <include name="tearDown"/>
+          <include name="main"/>
         </methods>
-      </class> <!-- Academy.ValidateNavigationBar -->
-      <class name="Academy.HomePage">
-        <methods>
-          <include name="launchBrowser"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Academy.HomePage -->
-      <class name="Academy.ValidateTitle">
-        <methods>
-          <include name="launchBrowser"/>
-          <include name="titleValidation"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Academy.ValidateTitle -->
+      </class> <!-- SeleniumCodingPractice.JavaScriptExecutor -->
     </classes>
-  </test> <!-- ValidateTitleTest(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

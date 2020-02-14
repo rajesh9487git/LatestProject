@@ -24,7 +24,7 @@ public class Windowhandles {
 		String parentId = s.next();
 		String ChildId = s.next();
 		
-		driver.switchTo().window("ChildId");
+		driver.switchTo().window(ChildId);
 		
 		System.out.println(driver.getTitle());
 		

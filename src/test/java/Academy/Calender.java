@@ -18,9 +18,10 @@ public class Calender {
 		// Thread.sleep(2000L);
 		driver.findElement(By.xpath("//input[@id='travel_date']")).click();
 
-		while (!driver.findElement(By.cssSelector("[class='datepicker-days'] [class='datepicker-switch']")).getText().contains("october")) {
+		while (!driver.findElement(By.cssSelector("[class='datepicker-days'] [class='datepicker-switch']")).getText().contains("October")) {
 
 			driver.findElement(By.cssSelector("[class='datepicker-days'] th[class='next']")).click();
+		}
 
 			List<WebElement> dates = driver.findElements(By.className("day"));
 			int count = dates.size();
@@ -39,4 +40,4 @@ public class Calender {
 		}
 
 	}
-}
+

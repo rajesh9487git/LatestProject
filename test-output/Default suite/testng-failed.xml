@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Academy.ValidateTitle">
+      <class name="SeleniumCodingPractice.ReadExcel">
         <methods>
-          <include name="launchBrowser"/>
-          <include name="titleValidation"/>
-          <include name="tearDown"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- Academy.ValidateTitle -->
+      </class> <!-- SeleniumCodingPractice.ReadExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -4,6 +4,7 @@
 <listeners>
 <listener class-name="resources.listeners"/>
 <listener class-name="resources.ExtentReporterNG"/>
+<listener class-name="resources.listeners1"/>
 </listeners>
 
   <test name="HomePageTest">

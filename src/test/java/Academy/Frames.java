@@ -18,6 +18,8 @@ public class Frames {
 		Thread.sleep(3000L);
 		//System.out.println(driver.findElements(By.tagName("iframe")).size());
 
+		
+		
 		driver.switchTo().frame(0);
 		
 		Actions a = new Actions(driver);
