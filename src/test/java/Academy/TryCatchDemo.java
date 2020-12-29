@@ -14,7 +14,8 @@ try {
 
 catch(Exception e) {
 	
-	System.out.println(e);
+	//System.out.println(e);
+e.printStackTrace();
 }
 		
 		System.out.println("hello");

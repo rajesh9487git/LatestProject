@@ -14,6 +14,8 @@ public class DownLoads {
 		String downloadPath= System.getProperty("user.dir");
 		System.setProperty("webdriver.chrome.driver", "C:/seleniumRelatedSoftwares/chromedriver.exe");
 		
+		System.out.println(downloadPath);
+		
 		HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
 		chromePrefs.put("download.default_directory", downloadPath);
 		

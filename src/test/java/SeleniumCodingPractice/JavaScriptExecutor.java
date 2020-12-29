@@ -16,8 +16,11 @@ public class JavaScriptExecutor {
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://ksrtc.in");
 		
+		driver.manage().window().maximize();
+		
 		driver.findElement(By.id("fromPlaceName")).click();
 		driver.findElement(By.id("fromPlaceName")).sendKeys("Bang");
+		driver.findElement(By.id("fromPlaceName")).sendKeys(Keys.DOWN);
 		driver.findElement(By.id("fromPlaceName")).sendKeys(Keys.DOWN);
 		driver.findElement(By.id("fromPlaceName")).sendKeys(Keys.DOWN);
 		

@@ -11,7 +11,8 @@ public class Day1 {
 		String s = "Rajesh";
 		System.out.println("Enter a String");
 		int d =scan.nextInt();
-		//scan.nextLine();
+		int e =scan.nextInt();
+		scan.nextLine();
 		String s1 = scan.nextLine();
 		
 		String concat= s+s1;

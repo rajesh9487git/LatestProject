@@ -4,3 +4,6 @@
 [1203/192713.112:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\inrrao\AppData\Local\Temp\scoped_dir69888_16922\Crashpad: The system cannot find the file specified. (0x2)
 [1203/200529.814:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\inrrao\AppData\Local\Temp\scoped_dir93072_11452\Crashpad: The system cannot find the file specified. (0x2)
 [1210/200210.371:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\inrrao\AppData\Local\Temp\scoped_dir52584_10491\Crashpad: The system cannot find the file specified. (0x2)
+[1220/193512.167:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1220/193930.546:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1220/194031.887:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

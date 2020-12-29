@@ -4,6 +4,8 @@ public class PrimeNoBw1andGivenNo {
 
 	public static void main(String[] args) {
 		
+		//A number which can be divided by 1 and by itself is called prime no
+		
 		int givenNo=50;
 		
 		

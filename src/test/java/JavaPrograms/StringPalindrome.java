@@ -23,8 +23,7 @@ public class StringPalindrome {
 			
 			System.out.println("Given String is not a Palindrome");
 			System.out.println("Given String is not a Palindrome");
-			
-			
+
 		}
 	}
 

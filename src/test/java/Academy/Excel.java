@@ -8,8 +8,8 @@ public class Excel {
 	public static void main(String[] args) throws IOException {
 	
 		
-		ExcelUtility data = new ExcelUtility();
-    ArrayList<String> data1=data.getData("purchase");
+		ExcelUtilityDemo data = new ExcelUtilityDemo();
+    ArrayList<String> data1=data.getExcelData("Purchase");
     
     System.out.println(data1.get(0));
     System.out.println(data1.get(1));

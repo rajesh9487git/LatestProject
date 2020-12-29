@@ -14,10 +14,11 @@ public class HashMapSortingByTreeMap {
 		hm.put("school", "Niki");
 		hm.put("bat", "Kaira");
 		
+		//TreeMap will sort on the basis of key 
 		Map<String, String> tm = new TreeMap<String, String>(hm);
 		for(Map.Entry<String, String> sorted: tm.entrySet()) {
 			
-			System.out.println(sorted.getValue());
+			System.out.println(sorted.getKey());
 		}
 
 	}

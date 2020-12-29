@@ -3,8 +3,10 @@ package JavaPrograms;
 public class ArraySortDemo {
 
 	public static void main(String[] args) {
+		
+		//selection sort
 
-		 int[] arr = {1, 4, 0, 2, 0, 0, 7, 5, 0, 9};
+		 int[] arr = {3, 4, 1, 2, 0, 0, 7, 5, 0, 9};
 
          for (int i = 0; i < arr.length; i++)
          {

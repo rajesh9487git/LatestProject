@@ -1,6 +1,8 @@
-package Academy;
+	package Academy;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -11,7 +13,7 @@ public class JavascriptExecutorDemo {
 
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
-
+        
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		String script = "return document.getElementById('fromPlaceName').value";
 		String text = (String) js.executeScript(script);

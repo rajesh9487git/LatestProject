@@ -15,10 +15,13 @@ public class DropdownDemo {
 		 //driver.manage().window().maximize();
 		 
 		 Select s= new Select(driver.findElement(By.xpath("//select[@id='ctl00_mainContent_DropDownListCurrency']")));
-		 s.selectByValue("AED");
+		/* s.selectByValue("AED");
 		 Thread.sleep(1000);
-		 s.selectByVisibleText("USD");
+		 s.selectByVisibleText("USD");*/
 		 
+		 
+		int optionssize= s.getOptions().size();
+		s.selectByIndex(optionssize-1);
 		 
 		 //driver.quit();
 		}

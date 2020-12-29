@@ -7,6 +7,8 @@ public class ArrayListSorting {
 
 	public static void main(String[] args) {
 		
+		//sorting arraylist
+		
 		ArrayList<String> arr = new ArrayList<String>();
 		
 		arr.add("Rajesh");

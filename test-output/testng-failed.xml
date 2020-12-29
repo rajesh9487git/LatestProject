@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="SeleniumCodingPractice.ReadExcel">
+      <class name="Apptio.Espn">
         <methods>
-          <include name="login"/>
+          <include name="espn"/>
         </methods>
-      </class> <!-- SeleniumCodingPractice.ReadExcel -->
+      </class> <!-- Apptio.Espn -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

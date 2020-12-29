@@ -3,6 +3,10 @@ package JavaPrograms;
 public class ANoisPrimeorNot {
 
 	public static void main(String[] args) {
+		
+		//In math, prime numbers are whole numbers greater than 1, that have only two factors – 1 and the number itself.
+		//Prime numbers are divisible only by the number 1 or itself.  
+		//For example, 2, 3, 5, 7 and 11 are the first few prime numbers.
 		int no=6;
 		int temp=0;
 		
